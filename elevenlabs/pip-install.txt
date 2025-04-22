@@ -1,1 +1,6 @@
+Official Elevenlabs Dependencies: 
+pip install elevenlabs
+pip install python-dotenv
+
+Other Dependencies:
 pip install requests
