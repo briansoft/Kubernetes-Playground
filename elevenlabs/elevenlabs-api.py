@@ -11,12 +11,14 @@ headers = {
     "xi-api-key": API_KEY
 }
 
-# Define the request payload
+# Define the request payload with all voice settings
 payload = {
-    "text": "Hello, this is a test of ElevenLabs TTS!",
+    "text": "Hello, this is a test of ElevenLabs TTS with all voice settings!",
     "voice_settings": {
-        "stability": 0.5,
-        "similarity_boost": 0.5
+        "stability": 0.7,             # Controls consistency of the generated speech
+        "similarity_boost": 0.85,      # Adjusts how much the output resembles the original voice
+        "style_exaggeration": 1.0,     # Enhances expressive elements
+        "use_speaker_boost": True      # Enables speaker boost for additional clarity
     }
 }
 
