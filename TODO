@@ -1,7 +1,7 @@
 Timekeeping: @1h
 
 Lab Taks : 
-☐  Kubernetes Cluster Created
+✔  Kubernetes Cluster Created
 ☐  Python Application Running
 ☐  Python Application Port Exposed
 ☐  Changes Pushed to GitHub Repository
