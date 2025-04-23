@@ -303,3 +303,4 @@ dist
 ### OSX ###
 # General
 .DS_Store
+deploy/nodejsapp
