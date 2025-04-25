@@ -304,3 +304,15 @@ dist
 # General
 .DS_Store
 deploy/nodejsapp
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore output folders
+audio_output/
